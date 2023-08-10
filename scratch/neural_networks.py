@@ -1,4 +1,4 @@
-from scratch.linear_algebra import Vector, dot
+from RecommenderSystem.scratch.linear_algebra import Vector, dot
 
 def step_function(x: float) -> float:
     return 1.0 if x >= 0 else 0.0
