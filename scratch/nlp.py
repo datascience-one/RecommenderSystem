@@ -288,7 +288,7 @@ for document, topic_counts in zip(documents, document_topic_counts):
             print(topic_names[topic], count)
     print()
 
-from scratch.linear_algebra import dot, Vector
+from RecommenderSystem.scratch.linear_algebra import dot, Vector
 import math
 
 def cosine_similarity(v1: Vector, v2: Vector) -> float:
