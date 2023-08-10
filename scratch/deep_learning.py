@@ -103,7 +103,7 @@ class Layer:
         """
         return ()
 
-from scratch.neural_networks import sigmoid
+from RecommenderSystem.scratch.neural_networks import sigmoid
 
 class Sigmoid(Layer):
     def forward(self, input: Tensor) -> Tensor:
